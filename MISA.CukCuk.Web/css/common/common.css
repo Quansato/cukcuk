@@ -1,0 +1,116 @@
+﻿/*button*/
+.m-btn {
+    display: flex;
+    align-items: center;
+    background-color: #019160;
+    border-radius: 4px;
+    height: 40px;
+    font-size: 13px;
+    color: #ffffff;
+    /*font-family: */
+    padding: 0px 16px;
+    border: none;
+    cursor: pointer;
+}
+
+    .m-btn:hover {
+        background-color: #2FBE8E
+    }
+
+    .m-btn .btn-text {
+        margin-left: 8px;
+    }
+
+    .m-btn .m-btn-icon {
+        background-position: center;
+    }
+
+.m-btn-second {
+    border: 1px solid #bbbbbb;
+    border-radius: 4px;
+    height: 40px;
+    font-size: 13px;
+    color: #000000;
+    padding: 0px 24px;
+    text-align: center;
+}
+
+.btn-paging {
+    border: none;
+    background-color: #ffffff;
+    cursor:pointer
+}
+.btn-paging:hover {
+    background-color:#bbbbbb;
+    border-radius:5px;
+}
+/*icon*/
+.icon-add {
+    background-image: url('../../content/icon/add.png');
+    width: 16px;
+    height: 16px;
+}
+
+.icon-search {
+    background-image: url('../../content/icon/search.png');
+    width: 16px;
+    height: 16px;
+}
+
+.icon-refresh {
+    background-image: url('../../content/icon/refresh.png');
+    width: 16px;
+    height: 16px;
+    background-repeat: no-repeat;
+}
+
+/*input*/
+
+
+/*paging*/
+
+.paging-number {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    padding: 5px;
+    border: 1px solid #bbbbbb;
+    cursor:pointer
+}
+
+    .paging-number:hover {
+        background-color: #bbbbbb
+    }
+
+.paging-number-active {
+    background-color: #019160;
+    color: #ffffff
+}
+
+
+/*---------------SCROLLBAR----------------*/
+
+/* width */
+::-webkit-scrollbar {
+    height: 5px;
+    width: 5px;
+    border-radius: 50%
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: #888;
+}
+
+    /* Handle on hover */
+    ::-webkit-scrollbar-thumb:hover {
+        background: #555;
+    }
